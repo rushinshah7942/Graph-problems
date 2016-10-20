@@ -1,7 +1,8 @@
-// Following implementation does the complete graph traversal even if the nodes are unreachable.
 
 import java.util.Iterator;
 import java.util.LinkedList;
+
+//Time Complexity: O(V+E) where V is number of vertices in the graph and E is number of edges in the graph.
 
 public class GraphDFS
 {
