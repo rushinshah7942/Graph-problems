@@ -4,12 +4,12 @@ import java.util.LinkedList;
 
 //Time Complexity: O(V+E) where V is number of vertices in the graph and E is number of edges in the graph.
 
-public class GraphDFS
+public class GraphBFS
 {
 	private int V; // no. of vertices
 	private LinkedList<Integer> adj[]; // Adjacency List representation
 	
-	Graph(int v)
+	GraphBFS(int v)
 	{
 		V = v;
 		adj = new LinkedList[v];
@@ -60,7 +60,7 @@ public class GraphDFS
 	
 	public static void main(String[] args)
 	{
-		Graph g  = new Graph(4);
+		GraphBFS g  = new GraphBFS(4);
 		g.addEdge(0,1);
 		g.addEdge(0,2);
 		g.addEdge(1,2);
