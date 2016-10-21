@@ -2,6 +2,8 @@
 Topological sort
 */
 
+// Time Complexity: The above algorithm is simply DFS with an extra stack. So time complexity is same as DFS which is O(V+E).
+
 import java.util.Iterator;
 import java.util.LinkedList;
 
